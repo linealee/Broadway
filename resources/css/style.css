@@ -3,25 +3,29 @@ body{
   text-align: center;
 }
 
+h1,h2,h3, .divider1{
+  font-weight: bold;
+}
+
+h1, h4, divider1, divider2{
+  color: white;
+}
+
+
 h1{
   font-size: 70px;
-  font-weight: bold;
-  color: white;
 }
 
 h2{
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3{
   font-size: 23px;
-  font-weight: bold;
 }
 
-h4{
+h4, .nav{
   font-size: 18px;
-  color: white;
 }
 
 p{
@@ -29,19 +33,16 @@ p{
 }
 
 .home{
-  background-image: url("../images/the-flatiron-building.png");
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg');
 }
 
 .divider1{
   font-size: 23px;
-  font-weight: bold;
-  color: white;
   background-image: url("../images/the-flatiron-building.png");
 }
 
-#divider2{
+.divider2{
   font-size: 11px;
-  color: white;
   background-color: dimgray;
   text-align: left;
 }
