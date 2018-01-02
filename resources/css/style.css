@@ -7,7 +7,7 @@ h1,h2,h3, .divider1{
   font-weight: bold;
 }
 
-h1, h4, divider1, divider2{
+h1, h4, .divider1, .divider2{
   color: white;
 }
 
