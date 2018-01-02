@@ -38,6 +38,7 @@ p{
 
 .divider1{
   font-size: 23px;
+  font-weight: bold;
   background-image: url("../images/the-flatiron-building.png");
   color: white;
 }
